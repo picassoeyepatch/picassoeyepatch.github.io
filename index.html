@@ -79,8 +79,37 @@ body {
   background: #005682; 
 }
 
+.cssmarquee {
+height: 50px;
+overflow: hidden;
+position: relative;
+}
+.cssmarquee h1 {
+font-size: 2em;
+color: #005682;
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0;
+line-height: 50px;
+text-align: center;
+transform:translateX(100%);
+animation: cssmarquee 10s linear infinite;
+}
+@keyframes cssmarquee {
+0% {
+transform: translateX(100%);
+}
+100% {
+transform: translateX(-100%);
+}
+
 </style>
 <body>
+
+<div class="cssmarquee">
+<h1>VRISKA SERKET</h1>
+</div>
 
 <div class="imagegif">
 <img src=http://www.vriskaserket.com/images/8ball.gif height=90px width=195px alt="">
