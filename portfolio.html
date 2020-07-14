@@ -7,6 +7,8 @@
 
 body {
 	background-image: url(http://www.vriskaserket.com/images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: #770909;
 	font-family: lucida console, monospace;
 	text-shadow: 3px 3px 2px #fff;
@@ -14,7 +16,7 @@ body {
 
 .banner {
 	border: 2px solid #770909;
-	background-color: #F26868;
+	background-color: rgba(255, 0, 0, 0.5);
 	top: 10px;
 	width: 500px;
 	margin: auto;
@@ -23,12 +25,21 @@ body {
 	padding: 5px;
 }
 
+.banner a {
+	color: #770909;
+	transition: 0.3;
+}
+
+.banner a:hover {
+	color: #000;
+}
+
 .content {
 	margin: auto;
 	width: 800px;
-	top: 320px;
+	top: 310px;
 	border: 2px solid #770909;
-	background-color: #F26868;
+	background-color: rgba(255, 0, 0, 0.5);
 	font-size: 16px;
 	padding: 10px;
 }
@@ -40,17 +51,17 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: transparent; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #770909; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #770909; 
 }
 
 </style>
