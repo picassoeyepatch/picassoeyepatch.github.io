@@ -1,0 +1,76 @@
+
+body {
+	font-family: arial, sans-serif;
+	color: #005682;
+	background-color: #FFF;
+}
+
+h1 {
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+
+.content {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	border: dashed 2px #005682;
+	background-color: #FFF;
+	color: #005682;
+	margin: auto;
+	width: 1000px;
+	padding: 4px;
+	height: 590px;
+	overflow: auto;
+	display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu main main main main main';
+  grid-gap: 4px;
+background-color: #005682;
+  padding: 10px;
+}
+
+.content > div {
+    background-color: #fff;
+  text-align: left;
+  padding: 15px 15px;
+  font-size: 14px;
+}
+
+.content a {
+	color: #005682;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.content a:hover {
+	color: #ff0000;
+	font-weight: bold;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #005682; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #005682;
+}
