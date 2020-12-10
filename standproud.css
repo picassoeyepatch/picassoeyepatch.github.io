@@ -16,7 +16,7 @@ body {
 	background-color: #FEFEFE;
 	font-family: verdana, sans-serif;
 	color: #C8C8C8;
-	position: absolute;
+	position: fixed;
 	height: 500px;
 	width: 400px;
 	text-align: justify;
@@ -25,6 +25,12 @@ body {
 
 .content a {
 	color: #ADADAD;
+	font-family: verdana, sans-serif;
+	text-decoration: underline;
+}
+
+.content a:hover {
+	color: #8F8F8F;
 	font-family: verdana, sans-serif;
 	text-decoration: underline;
 }
