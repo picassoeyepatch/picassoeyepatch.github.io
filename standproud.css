@@ -1,0 +1,44 @@
+
+body {
+	background-color: #FEFEFE;
+	font-family: verdana, sans-serif;
+	color: #C8C8C8;
+}
+
+.image {
+	left: 400px;
+	position: absolute;
+}
+
+.content {
+	left: 100px;
+	top: 100px;
+	background-color: #FEFEFE;
+	font-family: verdana, sans-serif;
+	color: #C8C8C8;
+	position: absolute;
+	height: 500px;
+	width: 400px;
+	text-align: justify;
+	padding: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FEFEFE; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FEFEFE; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #C8C8C8;
+}
