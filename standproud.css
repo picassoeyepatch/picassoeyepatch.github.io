@@ -6,13 +6,13 @@ body {
 }
 
 .image {
-	left: 400px;
-	position: absolute;
+	left: 550px;
+	position: fixed;
 }
 
 .content {
-	left: 100px;
-	top: 100px;
+	left: 200px;
+	top: 150px;
 	background-color: #FEFEFE;
 	font-family: verdana, sans-serif;
 	color: #C8C8C8;
@@ -21,6 +21,12 @@ body {
 	width: 400px;
 	text-align: justify;
 	padding: 10px;
+}
+
+.content a {
+	color: #ADADAD;
+	font-family: verdana, sans-serif;
+	text-decoration: underline;
 }
 
 /* width */
